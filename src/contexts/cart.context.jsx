@@ -44,6 +44,7 @@ export const CartProvider = ({ children }) => {
     setIsCartOpen,
     addItemToCart,
     cartCount,
+    cartItems,
   }
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>
 }
